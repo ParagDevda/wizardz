@@ -40,20 +40,23 @@ html,body{
 }
 #left{
     margin-left: 20px;
-   
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     height: 100%;
     width: 10%;
-    /* padding-top: 15px; */
-    /* border: solid black 2px; */
     display: flex;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
     justify-content: space-between;
 }
 #left h3{
     font-size:  35px;
     letter-spacing: 1px;
+}
+#left h4{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: monospace;
+    letter-spacing: -1px;
 }
 #mid{
     height: 100%;
@@ -420,7 +423,7 @@ a{
     background-color: black;
     color: white;
     margin-top: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 #msg{
     padding: 20px 0 110px ;
@@ -444,4 +447,101 @@ a{
 }
 #img3{
     height: 25px;
+}
+#page9{
+    width: 100%;
+    padding: 40px;
+    background-color:  rgb(25, 26, 35);
+    margin-top: 70px;
+    border-radius: 25px 25px 0px 0px;
+}
+#top{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#top #right h3{
+    border-color: white;
+}
+#top img{
+    height: 40px;
+    width: 50px;
+}
+#top #left{
+    gap: 30px;
+}
+#middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px white solid;
+    padding-bottom: 30px;
+}
+#middle p{
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+
+}
+#m-left h3{
+    background-color:rgb(185, 255, 102) ;
+    width: 120px;
+    font-size: 25px;
+    padding: 7px 10px 7px 10px;
+    margin-top: 45px;
+    border-radius: 15px;
+    font-family:"fantasy";
+}
+#m-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 25px 15px;
+    border-radius: 20px;
+}
+#insta a{
+    border: 0;
+    text-decoration: none;
+    color: rgb(25, 26, 35);
+}
+#insta i{
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    font-size: 25px;
+    font-weight: 100 !important;
+}
+#insta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 2px 10px 3px 0px;
+}
+#wiz a{
+    width: 100%;
+    text-decoration: none;
+    background-color: rgb(185, 255, 102);
+    color:rgb(25, 26, 35) ;
+    padding-right: 150px;
+}
+#wiz{
+    width: 50%;
+}
+#bottom{
+    color: white;
+    font-size: 23px;
+}
+#bottom h5{
+    margin-top: 15px;
+}
+#bottom p{
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
 }
