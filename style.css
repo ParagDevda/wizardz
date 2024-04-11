@@ -95,6 +95,9 @@ html,body{
     font-size: 17px;
     word-spacing: -3px;
 }
+#ad:active{
+    scale: 0.9;
+}
 #main{
     margin-left: 80px;
     margin-right: 60px;
@@ -138,6 +141,9 @@ p{
     padding: 20px 30px;
     font-family: cursive;
 }
+#p1-left button:active{
+    scale: 0.9;
+}
 #p1-right{
     padding-top: 8%;
     padding-left: 2%;
@@ -177,6 +183,9 @@ p{
     border-radius: 10px;
     margin-top: 15px;
     color: white;
+}
+#p2-main button:active{
+    scale: 0.9;
 }
 #page2 img{
     position: absolute;
@@ -289,13 +298,29 @@ p{
     border-radius: 30px;
     box-shadow: 0 8px 1px;
     border: solid 2px black;
+    padding: 0 20px 0 20px;
+    transition: all ease 0.3s;
+}
+.work-down{
+    display: none;
+    transition: all ease 1s;
+    padding: 20px 20px 40px 0;
+}
+.work-up{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px 0 20px;
+    height: 90px;
+}
+
+.work-down p{
+    color: #222;
+    font-size: 20px;
+    line-height: 30px;
 }
 .work:hover{
     box-shadow: 0 -2px 20px;
+    /* border-bottom: ; */
 }
 #name{
     display: flex;
@@ -318,6 +343,8 @@ p{
     border: 1px solid black;
     border-radius: 100%;
     padding: 2px 4px;
+    transition: all ease 0.3s;
+    background-color: white;
 }
 #lower3{
     width: 106%;
@@ -430,6 +457,9 @@ a{
     color: white;
     margin-top: 15px;
     border-radius: 5px;
+}
+#contact button:active{
+    scale: 0.9;
 }
 #msg{
     padding: 20px 0 110px ;
